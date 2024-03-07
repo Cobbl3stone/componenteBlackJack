@@ -48,4 +48,8 @@ public class HelloApplication extends HBox {
     public void establecerPuntuacion(int n) {
         controlador.getPuntuacion().setText(String.valueOf(n));
     }
+
+    public String guardarNombre() {
+        return controlador.getNombre().getText();
+    }
 }
